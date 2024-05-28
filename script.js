@@ -1,3 +1,11 @@
+document.addEventListener("DOMContentLoaded", function() {
+    // لوڈر کو 3 سیکنڈ کے بعد ہٹائیں
+    setTimeout(function() {
+        document.getElementById('loader').style.display = 'none';
+        document.getElementById('content').style.display = 'block';
+    }, 3000);
+});
+
 let input = document.getElementById('inputBox')
         let buttons = document.querySelectorAll('button')
         let string = ""
